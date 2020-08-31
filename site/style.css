@@ -1,0 +1,94 @@
+body{
+	
+	background-color : gray;
+	font-size : 130%;
+	margin:0;
+	padding:0;
+	
+}
+*{
+	box-sizing: border-box;
+}
+
+h1,h2{
+	background:#966F33;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 13em;
+    text-align:  center;
+}
+/*************large devices only *********/
+@media (min-width:1200px){
+	#p1{
+		width:80%;
+	}
+	#p2{
+		width:150px;
+		height:150px;
+	}
+}
+.background_1{
+	background: maroon;
+	margin-right: 500px;
+	/*text-align:  center;*/
+}
+.background_2{
+	background: darkblue;
+	margin-right: 500px;
+}
+header li:nth-child(2){
+	list-style: none;
+	font-size:32px;
+}
+a:link,a:visited{
+	text-decoration: none;
+	background-color: green;
+	color:black;
+	display:block;
+	width:200px;
+
+}
+a:hover,a:active{
+	background-color: yellow;
+	color:black;
+}
+p.big {
+	font-size: 30px;
+}
+#box{
+
+	background: blue;
+	padding:10px;
+	border: 5px solid black;
+	width:300p/*x;
+	height:50px;*/
+	overflow:scroll;
+	/*margin:40px;*/
+	
+}
+#content{
+	background:green url(https://www.w3schools.com/html/pic_trulli.jpg) no-repeat right; //green
+	float:right;
+}
+/*p{
+	width:500px;
+	height:500px;
+	border:1px solid black;
+}*/
+#p1{
+	background-color:yellow;
+	float:right;
+	width:500px;
+	height:500px;
+	clear:right;
+}
+#p2{
+	background-color:pink;
+	float:left;
+	width:500px;
+	height:500px;
+}
+/*section{
+	clear:left;
+}*/
